@@ -15,17 +15,17 @@
 
 // TO TYLKO chwilowo dla TESTÓW!!!
 
-h1 {
-    font-size: 30px;
-    color: red;
+// h1 {
+//     font-size: 30px;
+//     color: red;
 
-    @include medium {
-        font-size: 40px;
-        color: blue;
-    }
+//     @include medium {
+//         font-size: 40px;
+//         color: blue;
+//     }
 
-    @include large {
-        font-size: 50px;
-        color: brown;
-    }
-}
+//     @include large {
+//         font-size: 50px;
+//         color: brown;
+//     }
+// }
