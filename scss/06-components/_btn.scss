@@ -20,15 +20,15 @@
     &--red {
         background-color: $color-red;
 
-        &:hoover {
-            background-color: color.scale($color-red, $blackness: 10%);
+        &:hover {
+            background-color: color.scale($color-red, $blackness: 30%);
         }
     }
     &--green {
         background-color: $color-green;
 
-        &:hoover {
-            background-color: color.scale($color-green, $blackness: 10%);
+        &:hover {
+            background-color: color.scale($color-green, $blackness: 30%);
         }
     }
 

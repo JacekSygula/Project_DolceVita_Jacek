@@ -203,14 +203,14 @@ a {
 .btn--red {
   background-color: #74030e;
 }
-.btn--red:hoover {
-  background-color: #68030d;
+.btn--red:hover {
+  background-color: #51030b;
 }
 .btn--green {
   background-color: #132601;
 }
-.btn--green:hoover {
-  background-color: #112201;
+.btn--green:hover {
+  background-color: #0d1b01;
 }
 .btn--outline {
   background-color: transparent;
@@ -236,14 +236,14 @@ a {
   box-shadow: 0 0 25px gray;
 }
 .image-box__image {
-  background: url("../assets/img/one.jpg") center/cover;
+  background: url("../assets/img/one.webp") center/cover;
   height: 22rem;
   display: block;
   border-top-left-radius: 6px;
   border-top-right-radius: 6px;
 }
 .image-box__image--next {
-  background-image: url(../assets/img/two.jpeg);
+  background-image: url(../assets/img/two.webp);
 }
 .image-box__text {
   text-align: center;
@@ -253,8 +253,46 @@ a {
   font-family: roboto;
 }
 
+.form {
+  width: 95%;
+  font-family: "Roboto", "sans-serif";
+}
+@media screen and (min-width: 768px) {
+  .form {
+    width: 60%;
+  }
+}
+@media screen and (min-width: 1240px) {
+  .form {
+    width: 40%;
+  }
+}
+.form__label {
+  font-size: 1.6rem;
+  margin-bottom: 6px;
+  display: block;
+}
+.form__item {
+  color: #eff0f3;
+  display: block;
+  width: 100%;
+  font-size: 1.4rem;
+  padding: 15px;
+  background-color: rgba(0, 0, 0, 0.4);
+  border: 1px solid #eff0f3;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  font-family: inherit;
+  outline: 0;
+  resize: none;
+}
+.form__item:focus {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #eff0f3;
+}
+
 .site-header {
-  background: url("../assets/img/bg-header.jpeg") center/cover fixed;
+  background: url(/assets/img/start.webp) center/cover fixed;
   height: 100vh;
   position: relative;
 }
@@ -287,6 +325,26 @@ a {
 }
 .site-section--bg-color {
   background-color: #504533;
+}
+
+.site-contact {
+  background: url(/assets/img/contact.webp) center/cover fixed;
+  color: #eff0f3;
+  min-height: 85vh;
+  position: relative;
+}
+.site-contact__blackout {
+  position: absolute;
+}
+.site-contact__h2 {
+  padding-top: 3rem;
+  position: absolute;
+}
+.site-contact__form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .text-color-white {
